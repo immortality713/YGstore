@@ -1,0 +1,380 @@
+@charset "UTF-8";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.fl-fix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+body {
+  background: #F5F5F5;
+}
+
+.header {
+  width: 100%;
+}
+
+.top {
+  width: 1210px;
+  height: 36px;
+  margin: 0 auto;
+}
+
+.top a {
+  color: #555;
+}
+
+.city {
+  padding: 8px 0px 7px;
+}
+
+.city a {
+  font-size: 12px;
+  color: #555;
+}
+
+.login-nihao {
+  padding: 8px 9px 7px;
+  font-size: 12px;
+  color: #555;
+  line-height: 20px;
+}
+
+.my-old dt {
+  padding: 8px 9px 7px;
+  line-height: 20px;
+}
+
+.my-old {
+  font-size: 12px;
+  color: #555;
+}
+
+.serch-logo {
+  background: #fff;
+}
+
+.logo-serch {
+  width: 1210px;
+  height: 109px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 240px;
+  height: 68px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 120px;
+}
+
+.serch {
+  margin-top: 34px;
+}
+
+.search-form {
+  height: 36px;
+}
+
+.input-text {
+  width: 460px;
+  height: 24px;
+  padding: 4px;
+  border: 2px solid #F30213;
+  outline: none;
+}
+
+.input-submit {
+  display: block;
+  width: 80px;
+  height: 36px;
+  background: #F30213;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.buycar {
+  width: 140px;
+  height: 36px;
+  float: left;
+  margin-top: 34px;
+  padding: 0 28px 0 19px;
+  background: #f9f9f9;
+  border: 1px solid #DFDFDF;
+  font-size: 12px;
+  line-height: 34px;
+  margin-left: 30px;
+}
+
+.nav-out {
+  background: #fff;
+}
+
+.nav {
+  height: 42px;
+  width: 1210px;
+  margin: 0 auto;
+  background: #123;
+}
+
+/* banner 图 */
+.banner-out {
+  background: #c5000c;
+}
+
+.banner {
+  height: 400px;
+  width: 1210px;
+  margin: 0 auto;
+  background: url("https://pic.cnrmall.com/image/70/0c/700c2f9097622de35f6afdbbdfe12bf9.jpg") center center no-repeat;
+}
+
+/* 秒杀专区 */
+.spike {
+  height: 305px;
+  width: 1210px;
+  margin: 0 auto;
+  background: #fff;
+  margin: 15px auto 30px;
+}
+
+.spike-top {
+  height: 55px;
+  padding: 0 20px 0 30px;
+  background: url("https://statics.cnrmall.com/web/static/img/active/seckill.png") no-repeat 0 0;
+}
+
+.spike-main {
+  padding: 12px 0 13px;
+}
+
+.spike-main li {
+  padding: 0 15px;
+  width: 170px;
+  text-align: center;
+  border-left: 1px solid #e7e7e7;
+}
+
+.spike-img-box {
+  font-size: 12px;
+}
+
+.spike-img-box a {
+  display: block;
+  width: 170px;
+}
+
+.spike-img-box img {
+  width: 100%;
+  margin: 17px 20px;
+  width: 130px;
+  height: 130px;
+}
+
+.spike-img-box p {
+  height: 32px;
+  line-height: 16px;
+  text-align: center;
+  color: #999;
+  overflow: hidden;
+}
+
+.sk-price {
+  height: 25px;
+  padding: 3px;
+}
+
+.sk-price .new-price {
+  font-size: 16px;
+  font-weight: 600;
+  color: #f1352b;
+  margin-right: 4px;
+}
+
+.sk-price .old-price {
+  font-size: 12px;
+  color: #999;
+  text-decoration: line-through;
+}
+
+.food {
+  height: 478px;
+  width: 1210px;
+  margin: 0 auto;
+  background: #f01582;
+  margin: auto;
+}
+
+.life {
+  height: 478px;
+  width: 1210px;
+  margin: 0 auto;
+  background: #1cdbe9;
+  margin: auto;
+}
+
+.like {
+  height: 1000px;
+  width: 1210px;
+  margin: 0 auto;
+  background: #2d22c9;
+  margin: auto;
+}
+
+.footer {
+  height: 500px;
+  width: 1210px;
+  margin: 0 auto;
+  background: #b4aff0;
+  margin: auto;
+}
+
+/*# sourceMappingURL=index.css.map */

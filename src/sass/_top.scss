@@ -1,0 +1,246 @@
+$al-width:100%;
+$box-width:1210px;
+$box-height:36px;
+$margin:0 auto;
+$fl:left;
+$fr:right;
+$font12:12px;
+$font14:14px;
+$font16:16px;
+$f12-color:#555;
+body {
+    background: #F5F5F5;
+}
+
+.header {
+    width: $al-width;
+}
+
+.top {
+    width: $box-width;
+    height: $box-height;
+    margin: $margin;
+}
+
+.top a {
+    color: $f12-color;
+}
+
+.city {
+    padding: 8px 0px 7px;
+}
+
+.city a {
+    font-size: $font12;
+    color: $f12-color;
+}
+
+.login a {}
+
+.login-nihao {
+    padding: 8px 9px 7px;
+    font-size: $font12;
+    color: $f12-color;
+    line-height: 20px;
+}
+
+.my-old dt {
+    padding: 8px 9px 7px;
+    line-height: 20px;
+}
+
+.my-old {
+    font-size: $font12;
+    color: $f12-color;
+}
+
+.serch-logo {
+    background: #fff;
+}
+
+.logo-serch {
+    width: $box-width;
+    height: 109px;
+    margin: $margin;
+}
+
+.logo {
+    width: 240px;
+    height: 68px;
+    float: $fl;
+    margin-top: 20px;
+    margin-right: 120px;
+}
+
+.serch {
+    margin-top: 34px;
+}
+
+.search-form {
+    height: 36px;
+}
+
+.input-text {
+    width: 460px;
+    height: 24px;
+    padding: 4px;
+    border: 2px solid #F30213;
+    outline: none;
+}
+
+.input-submit {
+    display: block;
+    width: 80px;
+    height: 36px;
+    background: #F30213;
+    font-size: $font16;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.buycar {
+    width: 140px;
+    height: 36px;
+    float: $fl;
+    margin-top: 34px;
+    padding: 0 28px 0 19px;
+    background: #f9f9f9;
+    border: 1px solid #DFDFDF;
+    font-size: $font12;
+    line-height: 34px;
+    margin-left: 30px;
+}
+
+.nav-out {
+    background: #fff;
+}
+
+.nav {
+    height: 42px;
+    width: $box-width;
+    margin: $margin;
+    background: #123;
+}
+
+
+/* banner 图 */
+
+.banner-out {
+    background: #c5000c;
+}
+
+.banner {
+    height: 400px;
+    width: $box-width;
+    margin: $margin;
+    background: url('https://pic.cnrmall.com/image/70/0c/700c2f9097622de35f6afdbbdfe12bf9.jpg')center center no-repeat;
+}
+
+//main
+
+/* 秒杀专区 */
+
+.spike {
+    height: 305px;
+    width: $box-width;
+    margin: $margin;
+    background: #fff;
+    margin: 15px auto 30px;
+}
+
+.spike-top {
+    height: 55px;
+    padding: 0 20px 0 30px;
+    background: url('https://statics.cnrmall.com/web/static/img/active/seckill.png') no-repeat 0 0;
+}
+
+.spike-main {
+    padding: 12px 0 13px;
+}
+
+.spike-main li {
+    padding: 0 15px;
+    width: 170px;
+    text-align: center;
+    border-left: 1px solid #e7e7e7;
+}
+
+.spike-img-box {
+    font-size: $font12;
+}
+
+.spike-img-box a {
+    display: block;
+    width: 170px;
+}
+
+.spike-img-box img {
+    width: $al-width;
+    margin: 17px 20px;
+    width: 130px;
+    height: 130px;
+}
+
+.spike-img-box p {
+    height: 32px;
+    line-height: 16px;
+    text-align: center;
+    color: #999;
+    overflow: hidden;
+}
+
+.sk-price {
+    height: 25px;
+    padding: 3px;
+}
+
+.sk-price .new-price {
+    font-size: $font16;
+    font-weight: 600;
+    color: #f1352b;
+    margin-right: 4px;
+}
+
+.sk-price .old-price {
+    font-size: $font12;
+    color: #999;
+    text-decoration: line-through;
+}
+
+//食品酒水
+.food {
+    height: 478px;
+    width: $box-width;
+    margin: $margin;
+    background: rgb(240, 21, 130);
+    margin: auto;
+}
+
+//美妆，服装
+.life {
+    height: 478px;
+    width: $box-width;
+    margin: $margin;
+    background: rgb(28, 219, 233);
+    margin: auto;
+}
+
+//猜你喜欢
+.like {
+    height: 1000px;
+    width: $box-width;
+    margin: $margin;
+    background: rgb(45, 34, 201);
+    margin: auto;
+}
+
+//底部
+.footer {
+    height: 500px;
+    width: $box-width;
+    margin: $margin;
+    background: rgb(180, 175, 240);
+    margin: auto;
+}
