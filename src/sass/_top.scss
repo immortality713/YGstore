@@ -26,22 +26,40 @@ body {
     color: $f12-color;
 }
 
-.city {
-    padding: 8px 0px 7px;
-}
-
 .city a {
     font-size: $font12;
     color: $f12-color;
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 9px 1px 9px;
 }
 
-.login a {}
+.city-span1 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('https://statics.cnrmall.com/web/static/img/web_common_pic.png') no-repeat -40px 0;
+    vertical-align: middle;
+}
+
+.icon-xia {
+    display: inline-block;
+    width: 7px;
+    height: 4px;
+    background: url('https://statics.cnrmall.com/web/static/img/web_common_pic.png') no-repeat -110px -60px;
+    margin-left: 9px;
+}
 
 .login-nihao {
     padding: 8px 9px 7px;
     font-size: $font12;
     color: $f12-color;
     line-height: 20px;
+}
+
+.login-nihao :nth-child(1) {
+    color: #F30213;
 }
 
 .my-old dt {
@@ -74,10 +92,39 @@ body {
 
 .serch {
     margin-top: 34px;
+    width: 552px;
 }
 
 .search-form {
     height: 36px;
+}
+
+.keyword {
+    white-space: nowrap;
+    height: 20px;
+    overflow: hidden;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.key-tx {
+    float: left;
+    color: #666;
+    font-size: $font12;
+}
+
+.serch-ul {
+    display: inline-block;
+}
+
+.serch-ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+.serch-ul li a {
+    font-size: $font12;
+    color: #999;
 }
 
 .input-text {
@@ -101,8 +148,8 @@ body {
 }
 
 .buycar {
-    width: 140px;
-    height: 36px;
+    width: 91px;
+    height: 34px;
     float: $fl;
     margin-top: 34px;
     padding: 0 28px 0 19px;
@@ -111,6 +158,14 @@ body {
     font-size: $font12;
     line-height: 34px;
     margin-left: 30px;
+}
+
+.bcar-ic {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url('https://statics.cnrmall.com/web/static/img/web_common_pic.png') no-repeat 0px -30px;
+    vertical-align: middle;
 }
 
 .nav-out {
@@ -214,33 +269,212 @@ body {
     height: 478px;
     width: $box-width;
     margin: $margin;
-    background: rgb(240, 21, 130);
     margin: auto;
 }
 
+.food-top {
+    height: 26px;
+    padding: 16px 20px 16px 25px;
+    background: linear-gradient(90deg, #edba21, #e19631);
+}
+
+.food-top h3 {
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.p-food-main {
+    padding: 10px;
+    background: #fff;
+}
+
+.food-main-left {
+    width: 580px;
+    // height: 400px;
+    .f-m-l-top-l {
+        overflow: hidden;
+        a {
+            display: block;
+            width: 186px;
+            height: 260px;
+            border: 1px solid red;
+        }
+    }
+    .f-m-l-top-r {
+        width: 382px;
+        height: 260px;
+        a {
+            display: block;
+            width: 188px;
+            height: 130px;
+            border: 1px solid red;
+            float: left;
+            position: relative;
+            .f-m-l-top-r-p1 {
+                font-size: 14px;
+                color: #ffd300;
+                position: absolute;
+                top: 25px;
+                left: 25px;
+            }
+            .f-m-l-top-r-p2 {
+                font-size: 12px;
+                color: #666;
+                max-width: 50px;
+                position: absolute;
+                top: 50px;
+                left: 25px;
+            }
+            img {
+                position: absolute;
+                right: 5px;
+                bottom: 10px;
+            }
+        }
+    }
+}
+
+.f-m-l-bot {
+    padding-top: 10px;
+    a {
+        display: block;
+        width: 186px;
+        height: 130px;
+        border: 1px solid red;
+        float: left;
+        margin-right: 5px;
+    }
+}
+
+// .food-main-right {
+//     width: 580px;
+//     height: 400px;
+//     background: #656;
+// }
 //美妆，服装
 .life {
     height: 478px;
     width: $box-width;
     margin: $margin;
-    background: rgb(28, 219, 233);
     margin: auto;
+    background: #fff;
+    .life-mf {
+        width: 397px;
+        border: 1px solid red;
+    }
+    .life-mf-h3 {
+        padding: 16px 20px 16px 25px;
+        h3 {
+            font-size: 22px;
+            line-height: 30px;
+            color: #fff;
+        }
+    }
 }
 
 //猜你喜欢
 .like {
     height: 1000px;
     width: $box-width;
-    margin: $margin;
-    background: rgb(45, 34, 201);
-    margin: auto;
+    margin: 15px auto 0 auto;
+    color: #333;
+    .like-h3 {
+        line-height: 35px;
+        padding: 0 0 20px;
+        height: 35px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0) url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAADCAMAAAB/P3U+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkJEODlEQkUxNzk2NjExRTY5OTdDQkQ2NDRFQjFCNUU1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkJEODlEQkUyNzk2NjExRTY5OTdDQkQ2NDRFQjFCNUU1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QkQ4OURCREY3OTY2MTFFNjk5N0NCRDY0NEVCMUI1RTUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QkQ4OURCRTA3OTY2MTFFNjk5N0NCRDY0NEVCMUI1RTUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7GI6sZAAAAD1BMVEXa2trExMTBwcHDw8P///8QPEuGAAAABXRSTlP/////APu2DlMAAAAZSURBVHjaYmBgZGCBAwZmJkYkHoocQIABAAogAIEAYnZPAAAAAElFTkSuQmCC') repeat-x scroll 0 18px;
+        h3 {
+            font-size: 26px;
+            padding: 0 50px;
+            display: inline;
+            color: #333;
+            background: #f2f2f2;
+        }
+    }
+    .like-ul {
+        background: #fff;
+        li {
+            float: left;
+            margin: 0 0 10px 10px;
+        }
+        a {
+            display: block;
+            width: 224px;
+            height: 305px;
+            border: 1px solid red;
+            p {
+                padding: 10px;
+                font-size: 12px;
+            }
+        }
+        img {
+            width: 100%;
+        }
+    }
 }
 
 //底部
-.footer {
-    height: 500px;
-    width: $box-width;
-    margin: $margin;
-    background: rgb(180, 175, 240);
-    margin: auto;
+.ccti {
+    background: #fff;
+}
+
+.ccti-footer {
+    margin: 0 105px;
+    i {
+        display: block;
+        width: 250px;
+        height: 84px;
+        float: left;
+        background: url('https://statics.cnrmall.com/web/static/img/cti.png') no-repeat;
+    }
+}
+
+.faq {
+    background: #fff;
+    .notice {
+        width: 300px;
+        height: 134px;
+        float: left;
+        border-right: 1px solid #eaeaea;
+        font-family: '微软雅黑';
+        margin: 25px 0 25px 2%;
+        ul {
+            padding: 0 6px 0 15px;
+        }
+        li {
+            width: 250px;
+            line-height: 24px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            height: 24px;
+            a {
+                color: #999;
+                font-size: 12px;
+            }
+        }
+        h2 {
+            color: #666;
+            padding: 5px 5px 5px 20px;
+            margin: 0 0 5px;
+        }
+    }
+    .link {
+        margin-left: 50px;
+        padding: 20px 0;
+        float: left;
+        li {
+            font-size: 12px;
+            width: 20%;
+            display: inline-block;
+        }
+        dt {
+            font-size: 20px;
+            color: #666;
+            margin: 5px 0;
+            padding: 5px;
+        }
+    }
 }
