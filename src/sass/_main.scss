@@ -1,0 +1,244 @@
+//main
+
+/* 秒杀专区 */
+
+.spike {
+    height: 305px;
+    width: $box-width;
+    margin: $margin;
+    background: #fff;
+    margin: 15px auto 30px;
+}
+
+.spike-top {
+    height: 55px;
+    padding: 0 20px 0 30px;
+    background: url('https://statics.cnrmall.com/web/static/img/active/seckill.png') no-repeat 0 0;
+}
+
+.spike-main {
+    padding: 12px 0 13px;
+}
+
+.spike-main li {
+    padding: 0 15px;
+    width: 170px;
+    text-align: center;
+    border-left: 1px solid #e7e7e7;
+}
+
+.spike-img-box {
+    font-size: $font12;
+}
+
+.spike-img-box a {
+    display: block;
+    width: 170px;
+}
+
+.spike-img-box img {
+    width: $al-width;
+    margin: 17px 20px;
+    width: 130px;
+    height: 130px;
+}
+
+.spike-img-box p {
+    height: 32px;
+    line-height: 16px;
+    text-align: center;
+    color: #999;
+    overflow: hidden;
+}
+
+.sk-price {
+    height: 25px;
+    padding: 3px;
+}
+
+.sk-price .new-price {
+    font-size: $font16;
+    font-weight: 600;
+    color: #f1352b;
+    margin-right: 4px;
+}
+
+.sk-price .old-price {
+    font-size: $font12;
+    color: #999;
+    text-decoration: line-through;
+}
+
+//食品酒水
+.food {
+    height: 478px;
+    width: $box-width;
+    margin: $margin;
+    margin: auto;
+}
+
+.food-top {
+    height: 26px;
+    padding: 16px 20px 16px 25px;
+    background: linear-gradient(90deg, #edba21, #e19631);
+}
+
+.food-top h3 {
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.p-food-main {
+    padding: 10px;
+    background: #fff;
+}
+
+.food-main-left2 {
+    margin-left: 12px;
+    padding-left: 12px;
+    border-left: 1px solid #E6E6E6;
+}
+
+.food-main-left {
+    // width: 580px;
+    // height: 400px;
+    margin-left: 5px;
+    margin-top: 5px;
+    .f-m-l-top-l {
+        margin-right: 10px;
+        overflow: hidden;
+        a {
+            display: block;
+            width: 182px;
+            height: 260px;
+        }
+    }
+    .f-m-l-top-r {
+        width: 382px;
+        height: 260px;
+        a {
+            display: block;
+            width: 188px;
+            height: 130px;
+            float: left;
+            position: relative;
+            .f-m-l-top-r-p1 {
+                font-size: 14px;
+                color: #ffd300;
+                position: absolute;
+                top: 25px;
+                left: 25px;
+            }
+            .f-m-l-top-r-p2 {
+                font-size: 12px;
+                color: #666;
+                max-width: 50px;
+                position: absolute;
+                top: 50px;
+                left: 25px;
+            }
+            img {
+                position: absolute;
+                right: 5px;
+                bottom: 10px;
+            }
+        }
+    }
+}
+
+.f-m-l-bot {
+    padding-top: 10px;
+    a {
+        display: block;
+        width: 186px;
+        height: 130px;
+        float: left;
+        margin-right: 8px;
+        overflow: hidden;
+    }
+    a:last-child {
+        margin-right: 0px;
+    }
+}
+
+// .food-main-right {
+//     width: 580px;
+//     height: 400px;
+//     background: #656;
+// }
+//美妆，服装
+.life {
+    height: 478px;
+    width: $box-width;
+    margin: $margin;
+    margin: auto;
+    background: #fff;
+    .life-mf {
+        width: 397px;
+        margin-right: 9px;
+    }
+    .life-mf-3 {
+        margin-right: 0px;
+    }
+    .life-mf-h3 {
+        padding: 16px 20px 16px 25px;
+        h3 {
+            font-size: 22px;
+            line-height: 30px;
+            color: #fff;
+        }
+    }
+}
+
+//猜你喜欢
+.like {
+    width: $box-width;
+    margin: 15px auto 20px;
+    color: #333;
+    .like-h3 {
+        line-height: 35px;
+        padding: 0 0 20px;
+        height: 35px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0) url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAADCAMAAAB/P3U+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkJEODlEQkUxNzk2NjExRTY5OTdDQkQ2NDRFQjFCNUU1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkJEODlEQkUyNzk2NjExRTY5OTdDQkQ2NDRFQjFCNUU1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QkQ4OURCREY3OTY2MTFFNjk5N0NCRDY0NEVCMUI1RTUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QkQ4OURCRTA3OTY2MTFFNjk5N0NCRDY0NEVCMUI1RTUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7GI6sZAAAAD1BMVEXa2trExMTBwcHDw8P///8QPEuGAAAABXRSTlP/////APu2DlMAAAAZSURBVHjaYmBgZGCBAwZmJkYkHoocQIABAAogAIEAYnZPAAAAAElFTkSuQmCC') repeat-x scroll 0 18px;
+        h3 {
+            font-size: 26px;
+            padding: 0 50px;
+            display: inline;
+            color: #333;
+            background: #f2f2f2;
+        }
+    }
+    .like-ul {
+        padding-left: 10px;
+        li {
+            float: left;
+            margin: 0 0 10px 10px;
+            background: #fff;
+        }
+        a {
+            display: block;
+            width: 224px;
+            height: 305px;
+            p {
+                font-size: 12px;
+            }
+        }
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.like-u-p1 {
+    color: #333;
+    height: 36px;
+    padding: 10px 10px 0;
+    margin-bottom: 5px;
+}
+
+.like-u-p2 {
+    color: #f10214;
+    padding: 0 10px;
+}

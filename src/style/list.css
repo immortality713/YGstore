@@ -1,0 +1,407 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.fl-fix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.wrap {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+.header {
+    width: 100%;
+}
+
+.top {
+    height: 36px;
+    margin: 0 auto;
+}
+
+.top a {
+    color: #555;
+}
+
+.city a {
+    font-size: 12px;
+    color: #555;
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 9px 1px 9px;
+}
+
+.city-span1 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("https://statics.cnrmall.com/web/static/img/web_common_pic.png") no-repeat -40px 0;
+    vertical-align: middle;
+}
+
+.icon-xia {
+    display: inline-block;
+    width: 7px;
+    height: 4px;
+    background: url("https://statics.cnrmall.com/web/static/img/web_common_pic.png") no-repeat -110px -60px;
+    margin-left: 9px;
+}
+
+.login-nihao {
+    padding: 8px 9px 7px;
+    font-size: 12px;
+    color: #555;
+    line-height: 20px;
+}
+
+.login-nihao :nth-child(1) {
+    color: #F30213;
+}
+
+.my-old dt {
+    padding: 8px 9px 7px;
+    line-height: 20px;
+}
+
+.my-old {
+    font-size: 12px;
+    color: #555;
+    position: relative;
+    margin-right: 5px;
+}
+
+.my-old ul {
+    position: absolute;
+    top: 36px;
+    width: 85.2px;
+    background: #fff;
+    border: 1px solid #DFDFDF;
+    border-top: none;
+    display: none;
+}
+
+.my-old ul li {
+    padding: 8px 9px;
+}
+
+.my-old dt {
+    border: 1px solid rgba(223, 223, 223, 0);
+}
+
+.my-old dt:hover+dd ul {
+    display: block;
+}
+
+.my-old dt:hover {
+    border: 1px solid #dfdfdf;
+    border-bottom: none;
+}
+
+.serch-logo {
+    background: #fff;
+}
+
+.logo-serch {
+    height: 109px;
+}
+
+.logo {
+    width: 240px;
+    height: 68px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 120px;
+}
+
+.serch {
+    margin-top: 34px;
+    width: 555px;
+}
+
+.search-form {
+    height: 36px;
+}
+
+.keyword {
+    white-space: nowrap;
+    height: 20px;
+    overflow: hidden;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.key-tx {
+    float: left;
+    color: #666;
+    font-size: 12px;
+}
+
+.serch-ul {
+    display: inline-block;
+}
+
+.serch-ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+.serch-ul li a {
+    font-size: 12px;
+    color: #999;
+}
+
+.input-text {
+    width: 460px;
+    height: 24px;
+    padding: 4px;
+    border: 2px solid #F30213;
+    outline: none;
+}
+
+.input-submit {
+    display: block;
+    width: 80px;
+    height: 36px;
+    background: #F30213;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.buycar {
+    width: 91px;
+    height: 34px;
+    float: left;
+    margin-top: 34px;
+    padding: 0 28px 0 19px;
+    background: #f9f9f9;
+    border: 1px solid #DFDFDF;
+    font-size: 12px;
+    line-height: 34px;
+    margin-left: 30px;
+}
+
+.buycar a {
+    color: #F30213;
+}
+
+.bcar-ic {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("https://statics.cnrmall.com/web/static/img/web_common_pic.png") no-repeat 0px -30px;
+    vertical-align: middle;
+}
+
+.nav-out {
+    background: #fff;
+    border-bottom: solid 2px #F30213;
+}
+
+.nav {
+    height: 40px;
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.nav .nav-title {
+    width: 160px;
+    height: 20px;
+    background: #F30213;
+    line-height: 20px;
+    padding: 10px 10px 11px 10px;
+    position: relative;
+}
+
+.nav .nav-title a {
+    color: #fff;
+}
+
+.nav .nav-title h3 {
+    width: 150px;
+}
+
+.nav .nav-title .nav-i {
+    position: absolute;
+    right: 15px;
+    top: 45%;
+    width: 9px;
+    height: 6px;
+    background: url("https://statics.cnrmall.com/web/static/img/web_common_pic.png") no-repeat -90px -60px;
+}
+
+.nav .nav-right {
+    max-width: 998px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.nav .nav-right a {
+    display: inline-block;
+    font-size: 15px;
+    color: #000;
+    line-height: 20px;
+    padding: 8px 24px;
+    font-weight: normal;
+}
+
+.nav .nav-right a:hover {
+    color: #F30213;
+}
+
+
+/*# sourceMappingURL=list.css.map */

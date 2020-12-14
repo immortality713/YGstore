@@ -1,0 +1,192 @@
+//header
+.login-nihao {
+    padding: 8px 9px 7px;
+    font-size: $font12;
+    color: $f12-color;
+    line-height: 20px;
+}
+
+.login-nihao :nth-child(1) {
+    color: #F30213;
+}
+
+.my-old dt {
+    padding: 8px 9px 7px;
+    line-height: 20px;
+}
+
+.my-old {
+    font-size: $font12;
+    color: $f12-color;
+    position: relative;
+    margin-right: 5px;
+    ul {
+        position: absolute;
+        top: 36px;
+        width: 85.2px;
+        background: #fff;
+        border: 1px solid #DFDFDF;
+        border-top: none;
+        display: none;
+        li {
+            padding: 8px 9px;
+        }
+    }
+    dt {
+        border: 1px solid rgba(223, 223, 223, 0);
+        // border-bottom: none;
+    }
+    dt:hover+dd ul {
+        display: block;
+    }
+    dt:hover {
+        border: 1px solid rgba(223, 223, 223, 1);
+        border-bottom: none;
+    }
+}
+
+.serch-logo {
+    background: #fff;
+}
+
+.logo-serch {
+    height: 109px;
+}
+
+.logo {
+    width: 240px;
+    height: 68px;
+    float: $fl;
+    margin-top: 20px;
+    margin-right: 120px;
+}
+
+.serch {
+    margin-top: 34px;
+    width: 555px;
+}
+
+.search-form {
+    height: 36px;
+}
+
+.keyword {
+    white-space: nowrap;
+    height: 20px;
+    overflow: hidden;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.key-tx {
+    float: left;
+    color: #666;
+    font-size: $font12;
+}
+
+.serch-ul {
+    display: inline-block;
+}
+
+.serch-ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+.serch-ul li a {
+    font-size: $font12;
+    color: #999;
+}
+
+.input-text {
+    width: 460px;
+    height: 24px;
+    padding: 4px;
+    border: 2px solid #F30213;
+    outline: none;
+}
+
+.input-submit {
+    display: block;
+    width: 80px;
+    height: 36px;
+    background: #F30213;
+    font-size: $font16;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.buycar {
+    width: 91px;
+    height: 34px;
+    float: $fl;
+    margin-top: 34px;
+    padding: 0 28px 0 19px;
+    background: #f9f9f9;
+    border: 1px solid #DFDFDF;
+    font-size: $font12;
+    line-height: 34px;
+    margin-left: 30px;
+    a {
+        color: #F30213;
+    }
+}
+
+.bcar-ic {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url('https://statics.cnrmall.com/web/static/img/web_common_pic.png') no-repeat 0px -30px;
+    vertical-align: middle;
+}
+
+.nav-out {
+    background: #fff;
+    border-bottom: solid 2px #F30213;
+}
+
+.nav {
+    height: 40px;
+    width: $box-width;
+    margin: $margin;
+    .nav-title {
+        width: 160px;
+        height: 20px;
+        background: #F30213;
+        line-height: 20px;
+        padding: 10px 10px 11px 10px;
+        position: relative;
+        a {
+            color: #fff;
+        }
+        h3 {
+            width: 150px;
+        }
+        .nav-i {
+            position: absolute;
+            right: 15px;
+            top: 45%;
+            width: 9px;
+            height: 6px;
+            background: url('https://statics.cnrmall.com/web/static/img/web_common_pic.png')no-repeat -90px -60px;
+        }
+    }
+    .nav-right {
+        max-width: 998px;
+        white-space: nowrap;
+        overflow: hidden;
+        a {
+            display: inline-block;
+            font-size: 15px;
+            color: #000;
+            line-height: 20px;
+            padding: 8px 24px;
+            font-weight: normal;
+        }
+        a:hover {
+            color: #F30213;
+        }
+    }
+}

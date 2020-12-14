@@ -1,0 +1,123 @@
+//底部
+.ccti {
+    background: #fff;
+}
+
+.ccti-footer {
+    margin: 0 105px;
+    i {
+        display: block;
+        width: 250px;
+        height: 84px;
+        float: left;
+        background: url('https://statics.cnrmall.com/web/static/img/cti.png') no-repeat;
+    }
+}
+
+.faq {
+    background: #fff;
+    .notice {
+        width: 300px;
+        height: 134px;
+        float: left;
+        border-right: 1px solid #eaeaea;
+        font-family: '微软雅黑';
+        margin: 25px 0 25px 2%;
+        ul {
+            padding: 0 6px 0 15px;
+        }
+        li {
+            width: 250px;
+            line-height: 24px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            height: 24px;
+            a {
+                color: #999;
+                font-size: 12px;
+            }
+        }
+        h2 {
+            color: #666;
+            padding: 5px 5px 5px 20px;
+            margin: 0 0 5px;
+        }
+    }
+    .link {
+        margin-left: 50px;
+        padding: 20px 0;
+        float: left;
+        width: 823px;
+        li {
+            font-size: 12px;
+            width: 19%;
+            display: inline-block;
+            vertical-align: top;
+            dl {
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+        dt {
+            font-size: 20px;
+            color: #666;
+            margin: 5px 0;
+            padding: 5px;
+        }
+        dd {
+            padding: 2px 5px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            line-height: 20px;
+            a {
+                color: #999;
+            }
+        }
+    }
+}
+
+.footer {
+    background: #343a3a;
+    text-align: center;
+    p {
+        color: #eeeeee;
+        padding: 15px 0 0;
+        font-size: 12px;
+    }
+    a {
+        color: #eeeeee;
+    }
+    .footer-img {
+        padding: 20px 0 10px;
+        margin: 0 auto;
+        width: 535px;
+        li {
+            float: left;
+            margin-right: 20px;
+        }
+        a {
+            display: block;
+            img {
+                width: 100%;
+            }
+        }
+        .img01 {
+            width: 108px;
+            height: 40px;
+        }
+        .img02 {
+            width: 131px;
+            height: 47px;
+        }
+        .img03 {
+            width: 108px;
+        }
+        .img04 {
+            width: 108px;
+            height: 40px;
+            background: url('https://statics.cnrmall.com/web/static/img/yangguang-footer.png') no-repeat -488px 0;
+        }
+    }
+}

@@ -1,0 +1,170 @@
+//banner
+.live {
+    background: #fff;
+}
+
+.top-live {
+    width: 1030px;
+    height: 79px;
+    margin-left: 179px;
+    .live-left {
+        border: 1px solid #e4e4e4;
+        padding: 5px 0px 5px 0px;
+        margin: 5px 6px 5px 8px;
+        height: 59px;
+        width: 408px;
+        float: left;
+        .live-goods {
+            width: 290px;
+            float: left;
+            position: relative;
+            .live-specials {
+                display: inline-block;
+                vertical-align: top;
+                position: relative;
+                width: 60px;
+                height: 60px;
+                margin-left: 15px;
+                overflow: hidden
+            }
+        }
+    }
+    .goods-title {
+        position: relative;
+        width: 175px;
+        display: inline-block;
+        margin-left: 6px;
+        p {
+            line-height: 24px;
+            height: 24px;
+            width: 100%;
+            color: #000;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        a {
+            color: #333;
+        }
+        .goods-price {
+            margin-top: 5px;
+            color: #F15C18;
+            width: 50%;
+        }
+    }
+    .live-right {
+        float: right;
+        width: 167px;
+        height: 79px;
+    }
+    .live-ban1 {
+        display: block;
+        width: 100px;
+        height: 59px;
+        margin-left: 5px;
+        float: left;
+        background: url('https://statics.cnrmall.com/web/static/img/live.png') no-repeat;
+    }
+    .live-ban2 {
+        display: block;
+        width: 100px;
+        height: 59px;
+        margin-left: 5px;
+        float: left;
+        background: url('https://statics.cnrmall.com/web/static/img/live.png') no-repeat -105px 0;
+    }
+}
+
+
+/* banner 图 */
+
+.banner-out {
+    background: #c5000c;
+}
+
+.banner {
+    height: 400px;
+    width: $box-width;
+    margin: $margin;
+    position: relative;
+    background: url('https://pic.cnrmall.com/image/70/0c/700c2f9097622de35f6afdbbdfe12bf9.jpg')center center no-repeat;
+    ul {
+        background: #6E6568;
+        color: #fff;
+        position: absolute;
+        z-index: 2;
+        width: 180px;
+        padding: 19px 0;
+        min-height: 442px;
+        top: -79px;
+        li {
+            overflow: hidden;
+            padding-left: 12px;
+            height: 34px;
+            line-height: 34px;
+        }
+        a {
+            color: #fff;
+            font-size: 14px;
+        }
+    }
+    .right-ban {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 185px;
+        height: 400px;
+        background: rgba(255, 255, 255, 0.7);
+        h2 {
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+            padding: 12px 0;
+            font-size: 16px;
+            font-weight: bold;
+            color: #000;
+        }
+        img {
+            width: 100%;
+        }
+        h3 {
+            height: 24px;
+            line-height: 24px;
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            color: #000;
+            font-size: 12px;
+        }
+        p {
+            height: 40px;
+            line-height: 20px;
+            margin-top: 5px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+            color: #666;
+        }
+    }
+    .active {
+        background: #999;
+    }
+    .cartlist {
+        position: absolute;
+        left: 191px;
+        top: 0;
+        width: 998px;
+        min-height: 468px;
+        border: 1px solid #f7f7f7;
+        background-color: #fff;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, .3);
+        display: none;
+        transition: top .3s ease;
+        z-index: 1;
+    }
+    .item {
+        padding: 20px;
+        display: none
+    }
+}
