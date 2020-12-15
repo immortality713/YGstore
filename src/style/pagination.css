@@ -1,0 +1,106 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pagelist {
+    clear: both;
+    width: 1170px;
+    margin: 10px auto 0;
+    text-align: right;
+    padding: 20px 0;
+}
+
+.m-style {
+    float: right;
+    text-align: center;
+}
+
+.m-style:before,
+.m-style:after {
+    content: "";
+    display: table;
+}
+
+.m-style:after {
+    clear: both;
+    overflow: hidden;
+}
+
+.m-style span {
+    float: left;
+    margin: 0 5px;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    color: #000;
+    font-size: 14px;
+}
+
+.m-style .active {
+    float: left;
+    text-align: center;
+    display: block;
+    /* padding: 0 14px; */
+    border: 1px solid #DDD;
+    background-color: #F7F7F7;
+    position: relative;
+    z-index: 1;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    color: red;
+}
+
+.m-style a {
+    float: left;
+    margin: 0 5px;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    background: #F7F7F7;
+    border: 1px solid #ebebeb;
+    color: #000;
+    font-size: 14px;
+}
+
+.m-style a:hover {
+    color: red;
+    background: #F7F7F7;
+}
+
+.m-style .next,
+.m-style .prev {
+    font-family: "Simsun";
+    font-size: 16px;
+    font-weight: bold;
+    width: 80px;
+}
+
+.now,
+.count {
+    padding: 0 5px;
+    color: #f00;
+}
+
+.eg img {
+    max-width: 800px;
+    min-height: 500px;
+}
+
+input {
+    float: left;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    outline: none;
+    color: #bdbdbd;
+    font-size: 14px;
+}

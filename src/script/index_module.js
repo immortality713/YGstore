@@ -27,6 +27,9 @@ define(['jlazyload'], () => {
                 }
             }, function() {
                 $cartlist.hide();
+                // $bnlist.removeClass('active')
+                $(this).removeClass('active');
+
             });
 
             //2.鼠标移入右侧的大盒子，大盒子依然显示隐藏
@@ -37,7 +40,7 @@ define(['jlazyload'], () => {
             });
 
             $.ajax({
-                url: 'http://127.0.0.1/dashboard/peojectname/php/index-li.php',
+                url: 'http://10.31.161.51/dashboard/peojectname/php/index-li.php',
                 dataType: 'json'
             }).done(function(data) {
                 let $strhtml = '';
