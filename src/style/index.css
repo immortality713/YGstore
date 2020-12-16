@@ -162,6 +162,8 @@ body {
 
 .header {
   width: 100%;
+  background: #F5F5F5;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .top {
@@ -236,6 +238,9 @@ body {
   border: 1px solid rgba(223, 223, 223, 0);
 }
 .my-old dt:hover + dd ul {
+  display: block;
+}
+.my-old ul:hover {
   display: block;
 }
 .my-old dt:hover {
@@ -910,6 +915,17 @@ body {
   width: 108px;
   height: 40px;
   background: url("https://statics.cnrmall.com/web/static/img/yangguang-footer.png") no-repeat -488px 0;
+}
+
+.to-top {
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  right: 0;
+  bottom: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #7a6e6e url("https://statics.cnrmall.com/web/static/img/toolbar_bg.png") no-repeat 0 -250px;
 }
 
 /*# sourceMappingURL=index.css.map */

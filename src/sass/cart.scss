@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@import 'public';
+@import 'top';
+@import 'header';
+@import 'footer';
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

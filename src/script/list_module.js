@@ -11,6 +11,12 @@ define(['pagination', 'jlazyload'], function() {
         init: function() {
 
             const $list = $('.list ul');
+            const $to_top = $('.to-top')
+            $to_top.on('click', function() {
+                $('html').stop(true).animate({
+                    scrollTop: 0
+                })
+            })
             let $array_default = []; //排序前的li放入此数组。
             let $array = []; //排序后的数组
             let $prev = []; //li里面的商品的前一个价格
@@ -75,6 +81,8 @@ define(['pagination', 'jlazyload'], function() {
                 $("img.lazy").lazyload({ effect: "fadeIn" });
 
                 //将li元素添加到排序前的数组中。
+                $array_default = [];
+                $array = [];
                 $('.list li').each(function(index, element) { //element:原生的元素对象
                     $array_default[index] = $(this); //排序前
                     $array[index] = $(this); //排序后
@@ -148,7 +156,8 @@ define(['pagination', 'jlazyload'], function() {
                             $list.html($strhtml);
                             //懒加载
                             $("img.lazy").lazyload({ effect: "fadeIn" });
-
+                            $array_default = [];
+                            $array = [];
                             //将li元素添加到排序前的数组中。
                             $('.list li').each(function(index, element) { //element:原生的元素对象
                                 $array_default[index] = $(this); //排序前

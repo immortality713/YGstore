@@ -121,3 +121,14 @@
         }
     }
 }
+
+.to-top {
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    right: 0;
+    bottom: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #7a6e6e url("https://statics.cnrmall.com/web/static/img/toolbar_bg.png") no-repeat 0 -250px;
+}

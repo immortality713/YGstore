@@ -6,6 +6,12 @@ define(['jlazyload'], () => {
             const $bnlist = $('.banner li');
             const $cartlist = $('.cartlist');
             const $items = $('.item');
+            const $to_top = $('.to-top')
+            $to_top.on('click', function() {
+                $('html').stop(true).animate({
+                    scrollTop: 0
+                })
+            })
             $bnlist.hover(function() {
                 $cartlist.show();
                 $(this).addClass('active').siblings('li').removeClass('active');

@@ -394,6 +394,250 @@ body {
   color: #F30213;
 }
 
+.ncs-detail-wrap {
+  background: #fff;
+}
+
+#spic,
+#spic img {
+  height: 400px;
+}
+
+#sf,
+.p-name,
+.p-price {
+  height: 50px;
+}
+
+#bf,
+#spic {
+  width: 400px;
+}
+
+#bf,
+#sf {
+  visibility: hidden;
+}
+
+#bf,
+#ulist,
+.goodsinfo-word {
+  overflow: hidden;
+}
+
+#ulist a,
+a {
+  text-decoration: none;
+}
+
+#list,
+#spic,
+.wrap1 {
+  position: relative;
+  float: left;
+}
+
+.wrap1 ul,
+li,
+ol,
+ul {
+  list-style: none;
+}
+
+#bf img,
+#left,
+#sf,
+.wrap1 ul {
+  left: 0;
+  top: 0;
+}
+
+#list,
+#spic,
+#ulist a,
+.goodsinfo-img,
+.goodsinfo-word,
+.wrap1,
+.wrap1 ul,
+.wrap1 ul li {
+  float: left;
+}
+
+#ulist a,
+.p-btn a {
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  border: 0;
+}
+
+#bf,
+#bf img,
+#left,
+#right,
+#sf,
+#ulist,
+.wrap1 ul {
+  position: absolute;
+}
+
+#spic img {
+  width: 400px;
+}
+
+#sf {
+  width: 50px;
+  background: orange;
+  opacity: 0.3;
+}
+
+#bf {
+  height: 500px;
+  left: 410px;
+  z-index: 100;
+}
+
+#bf img {
+  width: 800px;
+  height: 800px;
+}
+
+#ulist {
+  left: 0;
+  top: 430px;
+  width: 402px;
+  height: 56px;
+}
+
+#ulist a {
+  width: 10px;
+  height: 54px;
+  border: 1px solid #ccc;
+  line-height: 56px;
+  background: #fff;
+}
+
+#list {
+  margin-left: 18px;
+  width: 372px;
+}
+
+.wrap1 ul li {
+  width: 56px;
+  height: 56px;
+  padding-right: 6px;
+}
+
+.wrap1 ul li img {
+  width: 52px;
+  height: 52px;
+  padding: 1px;
+  cursor: pointer;
+}
+
+.goodsinfo-img,
+.goodsinfo-img img {
+  width: 200px;
+  height: 200px;
+}
+
+.goodsinfo-word {
+  width: 600px;
+}
+
+#right {
+  right: 0;
+  top: 0;
+  color: #333;
+}
+
+#left {
+  z-index: 2;
+  color: #fff;
+}
+
+.goodsinfo {
+  padding: 50px 0 100px;
+}
+
+.p-btn input,
+.p-name,
+.p-price {
+  margin-left: 50px;
+}
+
+.p-name {
+  margin-top: 20px;
+  display: block;
+  font: normal 20px/28px "Microsoft Yahei";
+  margin-bottom: 4px;
+}
+
+.p-name .loadtitle {
+  display: block;
+  font: normal 20px/28px "Microsoft Yahei";
+  margin-bottom: 4px;
+  color: #000;
+}
+
+.p-btn a,
+.p-btn input {
+  font-family: "微软雅黑";
+  float: left;
+}
+
+.p-name strong {
+  font-family: "Microsoft Yahei";
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #e4393c;
+}
+
+.p-price {
+  margin-top: 40px;
+  line-height: 50px;
+  background: url("https://statics.cnrmall.com/web/static/img/shop/ncs_meta_bg.png") no-repeat center;
+}
+.p-price i {
+  color: #e4393c;
+  font-size: 26px;
+  font-weight: 400;
+}
+.p-price em {
+  color: #e4393c;
+}
+
+.p-btn {
+  margin-top: 20px;
+}
+
+.p-btn input {
+  display: inline-block;
+  width: 50px;
+  height: 46px;
+  font-size: 20px;
+  color: #000;
+  border: 1px solid gray;
+}
+
+.p-btn a {
+  display: block;
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-size: 16px;
+  color: #fff;
+  line-height: 50px;
+  margin-left: 10px;
+}
+
 .ccti {
   background: #fff;
 }
@@ -528,134 +772,4 @@ body {
   background: #7a6e6e url("https://statics.cnrmall.com/web/static/img/toolbar_bg.png") no-repeat 0 -250px;
 }
 
-.logo-span {
-  display: block;
-  width: 110px;
-  height: 40px;
-  position: absolute;
-  right: -100px;
-  bottom: 0;
-  font-size: 27px;
-  line-height: 30px;
-  color: #333;
-}
-
-.logo {
-  position: relative;
-}
-
-.tips-wrapper {
-  background: #fff8f0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-}
-.tips-wrapper p {
-  display: inline-block;
-  font-size: 12px;
-  vertical-align: middle;
-  color: #999;
-}
-
-.login {
-  position: relative;
-  height: 480px;
-  background-color: #e93854;
-}
-.login .wrap {
-  background: url("https://statics.cnrmall.com/public/img/login_img.jpg") no-repeat center 0;
-  height: 480px;
-}
-.login .nc-login {
-  background: #fff;
-  width: 346px;
-  height: 340px;
-  float: right;
-  margin-top: 10px;
-}
-.login .nc-login .nc-login-l {
-  width: 50%;
-  border-bottom: 1px solid #999;
-  height: 54px;
-  line-height: 54px;
-  text-align: center;
-  overflow: hidden;
-}
-.login .nc-login .nc-login-l a {
-  font-size: 18px;
-  color: #666;
-}
-.login .nc-login .nc-login-l a:hover {
-  color: #E4393C;
-}
-.login .nc-login .form {
-  margin: 20px;
-}
-.login .nc-login .form .item {
-  width: 304px;
-  height: 38px;
-  border: 1px solid #bdbdbd;
-  position: relative;
-}
-.login .nc-login .form input {
-  outline: none;
-  overflow: hidden;
-  float: none;
-  width: 254px;
-  height: 18px;
-  min-height: 18px;
-  padding: 10px 0 10px 50px;
-  border: 0;
-  font-family: '\5b8b\4f53';
-  font-size: 14px;
-  line-height: 18px;
-}
-.login .nc-login .form label {
-  position: absolute;
-  z-index: 3;
-  top: 1px;
-  left: 1px;
-  width: 38px;
-  height: 38px;
-  border-right: 1px solid #bdbdbd;
-}
-.login .nc-login .form .form-la1 {
-  background: url("https://statics.cnrmall.com/web/static/img/login_pic.png") no-repeat 0 -110px;
-}
-.login .nc-login .form .form-la2 {
-  background: url("https://statics.cnrmall.com/web/static/img/login_pic.png") no-repeat -48px -110px;
-}
-.login .nc-login .form .login-on {
-  width: 306px;
-  height: 40px;
-  border-radius: 20px;
-  border: 1px solid #16bd53;
-  position: relative;
-  font-size: 14px;
-  text-align: center;
-  line-height: 40px;
-  font-weight: 400;
-  color: #6c6c6c;
-  cursor: pointer;
-  margin-top: 50px;
-}
-.login .nc-login .form .login-on i {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-image: url("https://statics.cnrmall.com/web/static/img/slideImg/slider-click.png");
-  background-size: 100%;
-  position: absolute;
-  top: 10px;
-  left: 25px;
-}
-.login .nc-login .form .login-on span {
-  font-size: 14px;
-  text-align: center;
-  line-height: 40px;
-  font-weight: 400;
-  color: #6c6c6c;
-  cursor: pointer;
-}
-
-/*# sourceMappingURL=login.css.map */
+/*# sourceMappingURL=detali.css.map */

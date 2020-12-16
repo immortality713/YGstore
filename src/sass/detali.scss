@@ -1,0 +1,251 @@
+@charset "UTF-8";
+@import 'public';
+@import 'top';
+@import 'header';
+.ncs-detail-wrap {
+    background: #fff;
+}
+
+#spic,
+#spic img {
+    height: 400px
+}
+
+#sf,
+.p-name,
+.p-price {
+    height: 50px
+}
+
+#bf,
+#spic {
+    width: 400px;
+}
+
+#bf,
+#sf {
+    visibility: hidden
+}
+
+#bf,
+#ulist,
+.goodsinfo-word {
+    overflow: hidden
+}
+
+#ulist a,
+a {
+    text-decoration: none
+}
+
+#list,
+#spic,
+.wrap1 {
+    position: relative;
+    float: left
+}
+
+.wrap1 ul,
+li,
+ol,
+ul {
+    list-style: none
+}
+
+#bf img,
+#left,
+#sf,
+.wrap1 ul {
+    left: 0;
+    top: 0
+}
+
+#list,
+#spic,
+#ulist a,
+.goodsinfo-img,
+.goodsinfo-word,
+.wrap1,
+.wrap1 ul,
+.wrap1 ul li {
+    float: left
+}
+
+#ulist a,
+.p-btn a {
+    text-align: center
+}
+
+* {
+    padding: 0;
+    margin: 0
+}
+
+input {
+    border: 0
+}
+
+#bf,
+#bf img,
+#left,
+#right,
+#sf,
+#ulist,
+.wrap1 ul {
+    position: absolute
+}
+
+#spic img {
+    width: 400px
+}
+
+#sf {
+    width: 50px;
+    background: orange;
+    opacity: .3
+}
+
+#bf {
+    height: 500px;
+    left: 410px;
+    z-index: 100
+}
+
+#bf img {
+    width: 800px;
+    height: 800px
+}
+
+#ulist {
+    left: 0;
+    top: 430px;
+    width: 402px;
+    height: 56px
+}
+
+#ulist a {
+    width: 10px;
+    height: 54px;
+    border: 1px solid #ccc;
+    line-height: 56px;
+    background: #fff
+}
+
+#list {
+    margin-left: 18px;
+    width: 372px
+}
+
+.wrap1 ul li {
+    width: 56px;
+    height: 56px;
+    padding-right: 6px
+}
+
+.wrap1 ul li img {
+    width: 52px;
+    height: 52px;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.goodsinfo-img,
+.goodsinfo-img img {
+    width: 200px;
+    height: 200px
+}
+
+.goodsinfo-word {
+    width: 600px;
+}
+
+#right {
+    right: 0;
+    top: 0;
+    color: #333
+}
+
+#left {
+    z-index: 2;
+    color: #fff
+}
+
+.goodsinfo {
+    padding: 50px 0 100px;
+}
+
+.p-btn input,
+.p-name,
+.p-price {
+    margin-left: 50px
+}
+
+.p-name {
+    margin-top: 20px;
+    display: block;
+    font: normal 20px/28px "Microsoft Yahei";
+    margin-bottom: 4px;
+}
+
+.p-name .loadtitle {
+    display: block;
+    font: normal 20px/28px "Microsoft Yahei";
+    margin-bottom: 4px;
+    color: #000;
+}
+
+.p-btn a,
+.p-btn input {
+    font-family: "微软雅黑";
+    float: left
+}
+
+.p-name strong {
+    font-family: "Microsoft Yahei";
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #e4393c;
+}
+
+.p-price {
+    margin-top: 40px;
+    // width: 300px;
+    // background: rgba(183, 183, 183, .4);
+    line-height: 50px;
+    background: url('https://statics.cnrmall.com/web/static/img/shop/ncs_meta_bg.png') no-repeat center;
+    i {
+        color: #e4393c;
+        font-size: 26px;
+        font-weight: 400;
+    }
+    em {
+        color: #e4393c;
+    }
+}
+
+.p-btn {
+    margin-top: 20px
+}
+
+.p-btn input {
+    display: inline-block;
+    width: 50px;
+    height: 46px;
+    font-size: 20px;
+    color: #000;
+    border: 1px solid gray
+}
+
+.p-btn a {
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    font-size: 16px;
+    color: #fff;
+    line-height: 50px;
+    margin-left: 10px
+}
+
+@import 'footer';
