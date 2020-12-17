@@ -89,6 +89,10 @@ body {
     color: #c81623!important
 }
 
+#container {
+    min-height: 500px;
+}
+
 .w {
     width: 990px;
     margin: 0 auto
@@ -469,7 +473,7 @@ body {
 }
 
 .quantity-form a {
-    display: inline-block;
+    display: block;
     height: 18px;
     line-height: 18px;
     padding: 1px 0;

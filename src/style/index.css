@@ -200,7 +200,8 @@ body {
   margin-left: 9px;
 }
 
-.login-nihao {
+.login-nihao,
+.login-nihao1 {
   padding: 8px 9px 7px;
   font-size: 12px;
   color: #555;
@@ -763,17 +764,22 @@ body {
   background: #f2f2f2;
 }
 .like .like-ul {
-  padding-left: 10px;
+  margin-left: -10px;
 }
 .like .like-ul li {
   float: left;
   margin: 0 0 10px 10px;
   background: #fff;
 }
+.like .like-ul li:hover a {
+  border: 1px solid red;
+}
 .like .like-ul a {
   display: block;
   width: 224px;
   height: 305px;
+  padding: 4px;
+  border: 1px solid #fff;
 }
 .like .like-ul a p {
   font-size: 12px;

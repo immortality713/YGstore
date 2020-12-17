@@ -70,6 +70,9 @@ define(['jcookie'], () => {
             $('.quantity-add').on('click', function() {
                 let $num = $(this).parents('.goods-item').find('.quantity-form input').val();
                 $num++;
+                if ($num > 99) {
+                    $num = 99;
+                }
                 $(this).parents('.goods-item').find('.quantity-form input').val($num);
 
                 $(this).parents('.goods-item').find('.b-sum strong').html(calcsingleprice($(this)));
@@ -96,6 +99,12 @@ define(['jcookie'], () => {
                 let $value = $(this).val();
                 if (!$reg.test($value)) { //不是数字
                     $(this).val(1);
+                }
+                if ($value > 99) {
+                    $(this).val(99)
+                }
+                if ($value < 1) {
+                    $(this).val(1)
                 }
                 $(this).parents('.goods-item').find('.b-sum strong').html(calcsingleprice($(this)));
                 calcprice(); //计算总价
@@ -166,7 +175,21 @@ define(['jcookie'], () => {
                     calcprice(); //计算总价
                 }
             });
+            //
+            if (localStorage.getItem('loginname')) {
+                $('.login-nihao1').show();
+                $('.login-nihao').hide();
+                $('.login-nihao1 span').html(localStorage.getItem('loginname'));
+            }
+
+            //退出登录 - 删除本地存储
+            $('.login-nihao1 a').on('click', function() {
+                $('.login-nihao1').hide();
+                $('.login-nihao').show();
+                localStorage.removeItem('loginname');
+            });
 
         }
     }
 });
+6

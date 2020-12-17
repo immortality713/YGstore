@@ -200,7 +200,8 @@ body {
   margin-left: 9px;
 }
 
-.login-nihao {
+.login-nihao,
+.login-nihao1 {
   padding: 8px 9px 7px;
   font-size: 12px;
   color: #555;
@@ -597,6 +598,9 @@ body {
   border: 1px solid #bdbdbd;
   position: relative;
 }
+.login .nc-login .form .item-fore1 {
+  margin-bottom: 20px;
+}
 .login .nc-login .form input {
   outline: none;
   overflow: hidden;
@@ -620,10 +624,10 @@ body {
   border-right: 1px solid #bdbdbd;
 }
 .login .nc-login .form .form-la1 {
-  background: url("https://statics.cnrmall.com/web/static/img/login_pic.png") no-repeat 0 -110px;
+  background: url("https://statics.cnrmall.com/web/static/img/login_pic.png") no-repeat 0 -111px;
 }
 .login .nc-login .form .form-la2 {
-  background: url("https://statics.cnrmall.com/web/static/img/login_pic.png") no-repeat -48px -110px;
+  background: url("https://statics.cnrmall.com/web/static/img/login_pic.png") no-repeat -48px -111px;
 }
 .login .nc-login .form .login-on {
   width: 306px;
@@ -649,12 +653,12 @@ body {
   top: 10px;
   left: 25px;
 }
-.login .nc-login .form .login-on span {
-  font-size: 14px;
-  text-align: center;
-  line-height: 40px;
-  font-weight: 400;
-  color: #6c6c6c;
+.login .nc-login .form .login-on input {
+  margin-left: -25px;
+  display: block;
+  width: 306px;
+  height: 40px;
+  background: rgba(250, 250, 250, 0);
   cursor: pointer;
 }
 

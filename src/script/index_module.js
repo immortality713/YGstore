@@ -69,6 +69,19 @@ define(['jlazyload'], () => {
                     });
                 });
             });
+            //
+            if (localStorage.getItem('loginname')) {
+                $('.login-nihao1').show();
+                $('.login-nihao').hide();
+                $('.login-nihao1 span').html(localStorage.getItem('loginname'));
+            }
+
+            //退出登录 - 删除本地存储
+            $('.login-nihao1 a').on('click', function() {
+                $('.login-nihao1').hide();
+                $('.login-nihao').show();
+                localStorage.removeItem('loginname');
+            });
 
         }
     }

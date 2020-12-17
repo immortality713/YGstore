@@ -211,16 +211,21 @@
         }
     }
     .like-ul {
-        padding-left: 10px;
+        margin-left: -10px;
         li {
             float: left;
             margin: 0 0 10px 10px;
             background: #fff;
         }
+        li:hover a {
+            border: 1px solid red;
+        }
         a {
             display: block;
             width: 224px;
             height: 305px;
+            padding: 4px;
+            border: 1px solid #fff;
             p {
                 font-size: 12px;
             }

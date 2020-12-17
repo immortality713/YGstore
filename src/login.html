@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style/login.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/require.js/2.3.6/require.min.js" defer async=true data-main="script/main.js" id="currentpage" data-origin="login_module"></script>
 </head>
 
 <body>
@@ -15,7 +16,7 @@
         <div class="serch-logo">
             <div class='logo-serch fl-fix wrap'>
                 <div class="logo left">
-                    <a href="http://10.31.161.51/dashboard/peojectname/src/index1.html">
+                    <a href="http://10.31.161.51/dashboard/peojectname/src/index.html">
                         <img src="https://pic2.cnrmall.com/image/2c/6c/2c6ce4ec89967ee42ef77fb0b524fc0c.png">
                     </a>
                     <span class="logo-span">欢迎登陆</span>
@@ -40,22 +41,22 @@
                         <a href="">用户登录</a>
                     </div>
                     <div class="left nc-login-l">
-                        <a href="">手机动态码登录</a>
+                        <a href="registry.html">注册用户</a>
                     </div>
                 </div>
                 <div class="form">
                     <form action="" class="form-frm">
                         <div class="item-fore1 item">
                             <label for="loginname" class="form-la1"></label>
-                            <input type="text" id="loginname" placeholder="手机号/会员名/邮箱">
+                            <input type="text" name="tel" id="loginname" placeholder="手机号/会员名/邮箱">
                         </div>
                         <div class="item-fore2 item">
                             <label for="password" class="form-la2"></label>
-                            <input type="text" id="password" placeholder="输入账户密码">
+                            <input type="password" name="pass" id="password" placeholder="输入账户密码">
                         </div>
                         <div class="login-on">
                             <i></i>
-                            <span>登录</span>
+                            <input type="button" name="submit" value="登录">
                         </div>
                     </form>
                 </div>
